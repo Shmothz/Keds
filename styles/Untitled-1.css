@@ -1,10 +1,16 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     color: #212121;
+    font-size: 14px;
+}
+
+header {
+    background-color: #F9F6F1;
 }
 
 .header__row {
     align-items: center;
+    padding: 50px 0;
 }
 
 .header__nav-left {
@@ -21,9 +27,161 @@ body {
 }
 
 .nav-left__item span {
-    font-family: 'Montserrat', sans-serif;
-    /* font-style: Medium; */
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: .03;
+}
+
+.nav-center__logo {
+    text-align: center;
+}
+
+.nav-right__item {
+    text-align: right;
+}
+
+.nav-right__item button {
+    border: none;
+    background: none;
+}
+
+.nav-right__item div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-right__item button:first-of-type {
+    margin-right: 35px;
+}
+
+.nav-right__item button:last-of-type {
+    margin-right: 83px;
+}
+
+.header__counter {
+    padding: 0 14px 0 22px;
+    background-color: #D7B399;
+    color: white;
+}
+
+
+/* ================================= */
+
+.main__first {
+    font-size: 0;
+}
+
+.main__left-promo {
+    display: inline-block;
+}
+
+.left-promo__title {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.left-promo__text {
+    display: block;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.left-promo__btn {
+    display: block;
+    font-size: 16px;
+    margin-top: 55px;
+    width: 240px;
+    height: 55px;
+    padding: 17px 30px 18px 29px;
+    text-align: center;
+    background-color: #D7B399;
+    color: white;
+}
+
+.main__right-promo {
+    display: inline-block;
+}
+
+.right-promo__price1 {
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.right-promo__price2 {
+    position: absolute;
+    top: 83px;
+    right: 0px;
+    font-size: 42px;
+    color: #D84033;
+}
+
+section:first-child {
+    background-color: #F9F6F1;
+}
+
+section:nth-of-type(2) {
+    background-color: #212121;
+}
+
+.main-second {
+    color: white;
+}
+
+.main-second__title {
+    width: 588px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 23px;
+}
+
+.title__up {
+    font-weight: 700;
+}
+
+.main-second__text {
+    width: 394px;
+    margin: 0 auto;
+    font-size: 21px;
+    padding-bottom: 69px;
+}
+
+.third-main__bgc {
+    background: linear-gradient(to right, #F9F6F1 0%, #F9F6F1 50%, #F4F4F4 50%, #F4F4F4 100%);
+}
+
+.main-third__right,
+.main-third__left {
+    display: inline-block;
+}
+
+.main-third__left {
+    background: right no-repeat url("/img/Rectangle 3.png");
+    background-size: 190px 171px;
+}
+
+.main-third__right {
+    background: right no-repeat url("/img/Rectangle 3.1.png");
+    background-size: 190px 171px;
+}
+
+.third__title {
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.third__btn {
+    margin-top: 40px;
+    margin-bottom: 58px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #D7B399;
 }
