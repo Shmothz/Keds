@@ -19,7 +19,33 @@ header {
 
 .nav-left__item {
     display: inline-block;
-    margin-right: 35px;
+    /* margin-right: 35px; */
+    padding: 15px;
+}
+
+.nav-left__item:hover {
+    background-color: #ebe0ce;
+    box-shadow: inset -2px -2px #dbc8a9;
+}
+
+.nav-left__menu {
+    display: none;
+}
+
+.nav-left__item:hover .nav-left__menu {
+    display: block;
+}
+
+.nav-left__menu {
+    position: absolute;
+    margin-top: 10px;
+    border: 1px solid #dbc8a9;
+}
+
+.nav-left__menu span {
+    display: block;
+    padding: 10px;
+    background-color: #ebe0ce;
 }
 
 .nav-left__item:last-of-type {
