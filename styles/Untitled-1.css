@@ -360,3 +360,7 @@ section:nth-of-type(2) {
     display: flex;
     justify-content: space-between;
 }
+
+.footer__politic {
+    color: black;
+}
