@@ -1,5 +1,4 @@
 body {
-    /* font-family: 'Montserrat', sans-serif; */
     color: #212121;
     font-size: 14px;
 }
@@ -19,13 +18,13 @@ header {
 
 .nav-left__item {
     display: inline-block;
-    /* margin-right: 35px; */
     padding: 15px;
 }
 
 .nav-left__item:hover {
     background-color: #ebe0ce;
     box-shadow: inset -2px -2px #dbc8a9;
+    cursor: pointer;
 }
 
 .nav-left__menu {
@@ -37,7 +36,8 @@ header {
 }
 
 .nav-left__menu {
-    position: absolute;
+    z-index: 10;
+    position: relative;
     margin-top: 10px;
     border: 1px solid #dbc8a9;
 }
@@ -46,6 +46,7 @@ header {
     display: block;
     padding: 10px;
     background-color: #ebe0ce;
+    cursor: pointer;
 }
 
 .nav-left__item:last-of-type {
@@ -127,6 +128,16 @@ header {
     color: white;
 }
 
+#btn__a-1 {
+    display: inline-block;
+}
+
+#btn__a-1:hover,
+#btn__a-2:hover,
+#btn__a-3:hover {
+    text-decoration: none;
+}
+
 .main__right-promo {
     display: inline-block;
 }
@@ -172,6 +183,10 @@ section:nth-of-type(2) {
 
 .slide__page:last-of-type {
     margin-right: 0px;
+}
+
+.page__active {
+    background-color: #D7B399;
 }
 
 .main-second {
@@ -265,6 +280,10 @@ section:nth-of-type(2) {
 .main-fifth__block {
     border: 3px solid #D7B399;
     padding: 25px;
+}
+
+.main-fifth__block:hover {
+    background-color: #F9F6F1;
 }
 
 .main-fifth__block img {
@@ -371,6 +390,11 @@ section:nth-of-type(2) {
     color: #CBCFD4;
 }
 
+.footer__bgc a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .footer__social {
     font-size: 14px;
     font-weight: 400;
@@ -389,4 +413,9 @@ section:nth-of-type(2) {
 
 .footer__politic {
     color: black;
+}
+
+.footer__politic:hover {
+    color: black;
+    text-decoration: none;
 }
